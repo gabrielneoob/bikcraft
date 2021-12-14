@@ -17,6 +17,8 @@
   padding: 1rem 0px;
   display: inline-block;
   position: relative;
+  font-family: 'Poppins', Arial;
+  font-weight: 400;
 }
 
 .header-menu a::after {

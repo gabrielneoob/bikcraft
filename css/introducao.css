@@ -20,6 +20,8 @@
   font-size: 4rem;
   line-height: 1.11;
   margin: 0px 0px 2rem;
+  font-family: 'Poppins';
+  font-weight: 600;
 }
 
 .introducao-titulo span {
@@ -31,6 +33,8 @@
   font-weight: lighter;
   line-height: 1.5;
   margin: 0 0 20px;
+  font-family: 'Roboto';
+  font-weight: 400;
 }
 
 .introducao a {
@@ -38,12 +42,13 @@
   padding: 1rem 2rem;
   background: linear-gradient(#ffbf00, #f2a50c);
   color: #332200;
-  font-weight: bold;
+  font-weight: 600;
   display: inline-block;
   border-radius: 4px;
   box-shadow: 0/*x*/ 1.5px/*y*/ 2px/*blur*/ 0/*font-size*/ rgba(0,0,0,0.1);
   font-size: 1.125rem;
   line-height: 1.33;
+  font-family: 'Poppins';
 }
 
 .introducao a:hover {
