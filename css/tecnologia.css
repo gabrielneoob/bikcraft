@@ -1,0 +1,74 @@
+.tecnologia-bg {
+  background-color: var(--cor-11);
+  box-shadow: inset 0px 120px var(--cor-0), inset 0px -120px var(--cor-0);
+}
+
+.tecnologia {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.tecnologia-img img {
+  height: 100%;
+  position: left;
+}
+
+.tecnologia-conteudo {
+  padding: 180px 0px;
+}
+
+.tecnologia-conteudo span {
+  margin-bottom: 20px;
+  display: block;
+  text-transform: uppercase;
+}
+
+.tecnologia-conteudo h2 {
+  display: block;
+  margin: 0px 0px 32px;
+}
+
+.tecnologia-conteudo h2 span {
+  color: var(--cor-p1);
+  display: inline;
+}
+
+.tecnologia-conteudo p {
+  margin-bottom: 20px;
+}
+
+.tecnologia-conteudo a {
+  font-size: 1.5rem;
+  color: var(--cor-p1);
+  font-family: "Poppins", sans-serif;
+  padding: 0px 0px 8px;
+  font-weight: bold;
+  line-height: 1.5;
+  display: inline-block;
+  margin-bottom: 80px;
+}
+
+.tecnologia-conteudo a::after {
+  content: '';
+  display: block;
+  background-color: var(--cor-p1);
+  height: 4px;
+  margin-top: 5px;
+}
+
+.tecnologia-vantagens {
+  display: flex;
+  gap: 40px;
+  flex-direction: row;
+}
+
+.tecnologia-vantagens div img,
+.tecnologia-vantagens div h3 {
+  margin-bottom: 8px;
+}
+
+.tecnologia-vantagens div p {
+  margin-bottom: 0;
+}
+
