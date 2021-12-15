@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  height: 2000px;
+  padding-bottom: 600px;
 }
 
 h1,
@@ -25,3 +25,6 @@ img {
   display: block;
 }
 
+img [src$=".jpg"] {
+  border-radius: 4px;
+}

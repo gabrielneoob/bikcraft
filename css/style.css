@@ -3,6 +3,11 @@
 @import "./global.css";
 
 /* Utilidades */
-@import "./introducao.css";
-@import "./utilitarios/tipografia.css"
+@import "./utilitarios/tipografia.css";
+@import "./utilitarios/colors.css";
 
+/* Home */
+@import "./introducao.css";
+
+/*bicicletas*/
+@import "./bicicleta-lista.css";
