@@ -7,6 +7,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 40px;
+  padding: 0px 20px;
 }
 
 .tecnologia-img img {
@@ -72,3 +73,19 @@
   margin-bottom: 0;
 }
 
+@media (max-width: 800px) {
+  .tecnologia-img img {
+    display: none;
+  }
+
+  .tecnologia {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .tecnologia-vantagens {
+    flex-wrap: wrap;
+  }
+}
