@@ -13,6 +13,7 @@
 .tecnologia-img img {
   height: 100%;
   position: left;
+  object-fit: cover;
 }
 
 .tecnologia-conteudo {
