@@ -12,7 +12,7 @@
 
 .tecnologia-img img {
   height: 100%;
-  position: left;
+  object-position: left;
   object-fit: cover;
 }
 
@@ -51,18 +51,25 @@
   margin-bottom: 80px;
 }
 
+.tecnologia-conteudo a:hover {
+  color: var(--cor-0);
+}
+
 .tecnologia-conteudo a::after {
   content: '';
   display: block;
-  background-color: var(--cor-p1);
   height: 4px;
-  margin-top: 5px;
+  background-color: currentColor;
 }
 
 .tecnologia-vantagens {
   display: flex;
   gap: 40px;
   flex-direction: row;
+}
+
+.tecnologia-vantagens img {
+  width: 24px;
 }
 
 .tecnologia-vantagens div img,
@@ -75,6 +82,18 @@
 }
 
 @media (max-width: 800px) {
+  .tecnologia-bg {
+    box-shadow: initial;
+  }
+
+  .tecnologia-conteudo a {
+    margin-bottom: 40px;
+  }
+
+  .tecnologia-conteudo {
+    padding: 60px 0;
+  }
+
   .tecnologia-img img {
     display: none;
   }
