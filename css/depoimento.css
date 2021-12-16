@@ -3,14 +3,14 @@
   grid-template-columns: repeat(2, 1fr);
 }
 
-.depoimento-img img{
+.depoimento img{
   object-fit: cover;
   display: block;
   height: 100%;
   max-width: 100%;
 }
 
-.depoimento-txt {
+.depoimento-conteudo {
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -18,11 +18,11 @@
   padding: 40px 40px 80px 80px;
 }
 
-.depoimento-txt blockquote {
+.depoimento-conteudo blockquote {
   margin: 0;
 }
 
-.depoimento-txt p {
+.depoimento-conteudo p {
   margin-bottom: 1em;
   max-width: 32ch;
   font-size: 2rem;
@@ -32,26 +32,26 @@
   font-style: italic;
 }
 
-.depoimento-txt p::before {
+.depoimento-conteudo p::before {
   content: "“";
   left: -50px;
   top: -22px;
   z-index: 1;
 }
 
-.depoimento-txt p::after {
+.depoimento-conteudo p::after {
   content: "”";
   z-index: 1;
 }
 
-.depoimento-txt p::before,
-.depoimento-txt p::after {
+.depoimento-conteudo p::before,
+.depoimento-conteudo p::after {
   color: var(--cor-p2);
   font-size: 5rem;
   position: absolute;
 }
 
-.depoimento-txt span {
+.depoimento-conteudo span {
   text-align: end;
   text-transform: capitalize;
 }
@@ -62,7 +62,7 @@
     text-align: center;
   }
 
-  .depoimento-txt {
+  .depoimento-conteudo {
     padding: 40px 20px;
     align-items: center;
   }
