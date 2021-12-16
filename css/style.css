@@ -1,6 +1,7 @@
 @import "./header.css";
 @import "./utilitarios/utilitario.css";
 @import "./global.css";
+@import "/css/depoimento.css";
 
 /* Utilidades */
 @import "./utilitarios/tipografia.css";
