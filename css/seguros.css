@@ -61,3 +61,9 @@
   background: var(--cor-9);
   color: var(--cor-0);
 }
+
+@media (max-width: 800px) {
+  .seguro-item {
+    grid-template-columns: 1fr;
+  }
+}
