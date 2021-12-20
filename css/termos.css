@@ -1,0 +1,50 @@
+.titulo {
+  background: var(--cor-11);
+  padding: 60px 0px;
+}
+
+.titulo p {
+  margin: 0 0 5px;
+}
+
+.titulo .container {
+  padding: 0 20px;
+}
+
+@media (max-width: 1200px) {
+  .titulo h1 {
+    font-size: 3rem;
+  }
+
+  .titulo p {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .titulo h1 {
+    font-size: 2rem;
+  }
+
+  .titulo p {
+    font-size: 1rem;
+  }
+}
+
+.termos {
+  padding: 80px 20px;
+}
+
+.termos h2 {
+  margin-bottom: 20px;
+}
+
+.termos p {
+  color: var(--cor-9);
+  font-family: "Roboto";
+  line-height: 1.4;
+  margin: 0 0 24px;
+  max-width: 74ch;
+  font-weight: 400;
+  font-size: 1.15rem;
+}
