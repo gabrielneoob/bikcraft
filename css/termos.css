@@ -7,11 +7,19 @@
   margin: 0 0 5px;
 }
 
+.termos h2 {
+  font-weight: 600;
+}
+
 .titulo .container {
   padding: 0 20px;
 }
 
 @media (max-width: 1200px) {
+  .titulo {
+    padding: 40px 0;
+  }
+
   .titulo h1 {
     font-size: 3rem;
   }
@@ -22,6 +30,10 @@
 }
 
 @media (max-width: 800px) {
+  .titulo {
+    padding: 38px 0;
+  }
+
   .titulo h1 {
     font-size: 2rem;
   }
@@ -42,9 +54,9 @@
 .termos p {
   color: var(--cor-9);
   font-family: "Roboto";
-  line-height: 1.4;
+  line-height: 1.5;
   margin: 0 0 24px;
   max-width: 74ch;
   font-weight: 400;
-  font-size: 1.15rem;
+  font-size: 1.1rem;
 }
