@@ -38,6 +38,10 @@
   gap: 16px;
 }
 
+.rodape a:hover {
+  color: var(--cor-0);
+}
+
 @media (max-width: 800px) {
   .logo-footer {
     display: none;
