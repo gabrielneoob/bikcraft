@@ -66,8 +66,52 @@
   color: var(--cor-0);
 }
 
+.seguro-bg {
+  background-color: var(--cor-11);
+}
+
 @media (max-width: 800px) {
   .seguro-item {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Pagina seguros*/
+
+.seguro-vantagens-bg {
+  background: var(--cor-12);
+}
+
+.seguros-vantagens {
+  padding: 120px 20px;
+}
+
+.seguros-vantagens ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px 80px;
+}
+
+.seguros-vantagens ul h2 {
+  margin-bottom: 8px;
+}
+
+.seguros-vantagens ul img {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 1100px) {
+  .seguros-vantagens ul {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .seguros-vantagens {
+    padding: 60px 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .seguros-vantagens ul {
     grid-template-columns: 1fr;
   }
 }
