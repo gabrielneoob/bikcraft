@@ -3,6 +3,7 @@
 @import "./global.css";
 @import "./depoimento.css";
 @import "./termos.css";
+@import "./perguntas.css";
 
 /* Utilidades */
 @import "./utilitarios/tipografia.css";
