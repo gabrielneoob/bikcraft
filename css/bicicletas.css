@@ -124,8 +124,10 @@
 
 .nimbus-img img:nth-child(1) {
   border-radius: 4px;
-  height: auto;
+  min-width: 100%;
+  flex: 1;
   cursor: pointer;
+  height: auto;
 }
 
 .nimbus-img img:nth-child(2),
@@ -133,16 +135,16 @@
   flex: 1;
   min-width: 200px;
   border-radius: 4px;
-  height: auto;
   cursor: pointer;
-  align-self: flex-start;
+  height: auto;
 }
 
 .nimbus {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 40px;
-  padding: 0px 20px 120px;
+  padding: 0px 20px 60px;
+  align-items: start;
 }
 
 .nimbus-conteudo p {
@@ -186,6 +188,10 @@
   border-radius: 4px;
 }
 
+.bicicleta-inf img {
+  margin-bottom: 8px;
+}
+
 .bicicleta-inf h3 {
   margin-bottom: 8px;
 }
@@ -204,4 +210,34 @@
   padding: 5px 0;
   border-bottom: 1px solid var(--cor-11);
   font-family: "Roboto", sans-serif;
+  line-height: 1.33;
+}
+
+.nimbus-ficha li:last-child {
+  border-bottom: none;
+}
+
+@media (max-width: 800px) {
+  .nimbus {
+    grid-template-columns: 1fr;
+  }
+
+  .nimbus-img {
+    grid-row: 2;
+  }
+}
+
+@media (max-width: 400px) {
+  .nimbus-compra {
+    grid-template-columns: 1fr;
+  }
+
+  .nimbus-compra .btg {
+    max-width: max-content;
+  }
+
+  .bicicleta-inf {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
 }
