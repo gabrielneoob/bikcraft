@@ -46,3 +46,13 @@
   padding: 15px 0px 0 20px;
   max-width: 75ch;
 }
+
+@media (max-width: 800px) {
+  .perguntas {
+    padding: 60px 20px;
+  }
+
+  .perguntas h2 {
+    margin-bottom: 40px;
+  }
+}
