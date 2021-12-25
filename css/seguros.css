@@ -115,3 +115,62 @@
     grid-template-columns: 1fr;
   }
 }
+
+/*Seguro bicicletas*/
+
+#seguro-bg{
+  box-shadow: inset 0px 120px var(--cor-0), inset 0px -120px var(--cor-12);
+}
+
+.seguro {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.seguro-img {
+  height: 100%;
+}
+
+.seguro-img img{
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.seguro-introducao {
+  padding: 180px 0;
+}
+
+.seguro-introducao span {
+  color: var(--cor-p1);
+}
+
+.seguro-introducao h2 {
+  margin: 0 0 20px;
+}
+
+.seguro-introducao p {
+  margin: 0 0 32px;
+}
+
+@media (max-width: 600px) {
+  .seguro {
+    grid-template-columns: 1fr;
+  }
+
+  .seguro-img {
+    grid-row: 2;
+  }
+
+  #seguro-bg {
+    box-shadow: inset 0px -120px var(--cor-12)
+  }
+
+  .seguro-introducao {
+    padding: 40px 0px 0px;
+  }
+}
