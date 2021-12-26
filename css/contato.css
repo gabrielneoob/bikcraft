@@ -1,0 +1,102 @@
+.contatos {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  padding: 0 20px;
+}
+
+.contato-dados {
+  background-color: var(--cor-12);
+  padding: 60px;
+}
+
+.contato-dados h2 {
+  margin: 0 0 60px;
+}
+
+.contato-endereco,
+.contato-email,
+.contato-tel a {
+  margin-bottom: 32px;
+}
+
+.contato-endereco li {
+  margin-bottom: 8px;
+}
+
+.contato-redes {
+  display: flex;
+  margin-top: 32px;
+  gap: 32px;
+  padding: 0 0 0 16px;
+}
+
+/*formulário*/
+
+.contatos form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 60px;
+  gap: 0px 16px;
+}
+
+input[type="text"],
+input[type="email"],
+label,
+textarea {
+  grid-column: 1;
+}
+
+#telefone {
+  grid-column: 2;
+}
+
+label.ctelefone {
+  grid-row: 1;
+  align-self: flex-end;
+  grid-column: 2;
+}
+
+input[type="email"],
+.cemail {
+  grid-column: 1/-1;
+}
+
+label.cemail,
+label.cname,
+label.cmsg {
+  align-self: flex-end;
+}
+
+label.cmsg,
+textarea {
+  grid-column: 1/-1;
+}
+
+.contatos form button {
+  grid-column: 1;
+  align-self: end;
+}
+
+label {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+form input,
+textarea {
+  background-color: var(--cor-1);
+  border: 1.5px solid var(--cor-3);
+  font-family: "Roboto", sans-serif;
+  border-radius: 4px;
+  font-weight: 400;
+}
+
+textarea {
+  min-width: 400px;
+}
+
+form input,
+textarea:active {
+  border-color: var(cor-p1);
+}

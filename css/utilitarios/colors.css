@@ -23,6 +23,10 @@
   color: var(--cor-0);
 }
 
+.cor-4 {
+  color: var(--cor-4);
+}
+
 .cor-5 {
   color: var(--cor-5);
 }

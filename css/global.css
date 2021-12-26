@@ -28,3 +28,7 @@ img {
 img [src$=".jpg"] {
   border-radius: 4px;
 }
+
+input {
+  background-color: var(cor-2) !important;
+}
