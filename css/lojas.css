@@ -54,3 +54,28 @@
   width: 20px;
   height: 120px;
 }
+
+@media (max-width: 800px) {
+  .lojas-localizacao {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .lojas-conteudo h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .lojas {
+    grid-template-columns: 1fr;
+    padding: 40px 20px;
+  }
+
+  .lojas h2 {
+    margin-bottom: 10px;
+  }
+
+  .lojas {
+    gap: 40px;
+  }
+}
