@@ -30,7 +30,7 @@
         </nav>
       </div>
     </header>
-    <main>
+    <main id="contatos">
       <div class="titulo">
         <div class="container">
           <p class="font-2-l cor-5">RESPOSTAS EM ATE 24HORAS</p>
@@ -51,7 +51,7 @@
             <li><a href="mailto:gabrielngc@gmail.com">assistenciabikcraft@bikcraft.com</a></li>
           </ul>
 
-          <span class="font-2-s cor-4 contato-tel" style="margin-bottom: 32px;"><a href="tel:+552199999999">+55 21 9999-9999</a></span>
+          <a class="font-2-s cor-4 contato-tel" href="tel:+552199999999">+55 21 9999-9999</a>
           <div class="contato-redes">
             <img src="./img/redes/instagram-p.svg" alt="instagram">
             <img src="./img/redes/facebook-p.svg" alt="facebook">
@@ -59,17 +59,29 @@
           </div>
         </div>
         <!--Formulário-->
-        <form id="contato-form" action="" method="get">
-          <label class="cname" for="name">Nome</label>
-          <input type="text" id="name" name="name" placeholder="Seu nome">
-          <label class="ctelefone" for="telefone">Telefone</label>
-          <input type="text" id="telefone" placeholder="(21) 9999-9999" name="telefone">
-          <label class="cemail" for="email">Email</label>
-          <input type="email" name="email" id="email" placeholder="contato@email.com">
-          <label class="cmsg" for="msg">Mensagem</label>
-          <textarea name="mensagem" id="msg" placeholder="O que você precisa?"></textarea>
-          <button class="btg">enviar mensagem</button>
-        </form>
+        <section class="contato-formulario" aria-label="formulário">
+            <form class="contato-form" action="./contato.html" method="get">
+              <div>
+                <label class="cname" for="name">Nome</label>
+                <input type="text" id="name" name="name" placeholder="Seu nome">
+              </div>
+              <div>
+                <label class="ctelefone" for="telefone">Telefone</label>
+                <input type="text" id="telefone" placeholder="(21) 9999-9999" name="telefone">
+              </div>
+              <div class="col-2">
+                <label class="cemail" for="email">Email</label>
+               <input type="email" name="email" id="email" placeholder="contato@email.com">
+              </div>
+              <div class="col-2">
+                <label class="cmsg" for="msg">Mensagem</label>
+                <textarea name="mensagem" id="msg" rows="5" placeholder="O que você precisa?"></textarea>
+                
+              </div>
+              <button class="btg col-2">enviar mensagem</button>
+            </form>
+        </section>
+        
       </div>
     </main>
 
