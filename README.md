@@ -9,7 +9,4 @@ Posteriormente, durante o curso de CSS com SASS, foi realizada uma engenharia re
 ## Tecnologias e ferramentas utilizadas
 - HTML5
 - CSS3
-- JavaScript (com os plugins SimpleSlide, SimpleAnime e SimpleForm)
-- PHP (envio de e-mail com SendGrid)
-- SASS
-- Scout App (compilador do SASS)
+- JavaScript
